@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+.menu {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.content{
+    margin-top: 148px;
+    margin-bottom: 197px;
+}
+
+.title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 223px;
+}
+.text {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 17px;
+}
+
+.content_buttoms{
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 52px;
+}
+.logos{
+    margin-bottom: 96px;
+}
