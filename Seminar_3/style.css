@@ -1,24 +1,73 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+img {
+    max-width: 100%;
+    display: block;  
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 .header{
+    display: flex;
+    justify-content: space-around;
+    gap: 375px;
     padding-top: 39px;
     padding-bottom: 39px;
+    
+}
+
+.header_menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 34px;
 }
 .menu {
+    padding: 10px;
     color: #000;
+    font-family: "Gilroy-Medium";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
 }
+.org {
+    color: #F25822;
+    font-family: "Gilroy-Semibold";
+}
+.start {
+    border-radius: 30px;
+    padding: 12px 27px;
+    background: #F25822;
+    color: #FFF;
+    font-family: "Gilroy-SemiBold";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .content{
-    margin-top: 148px;
-    margin-bottom: 197px;
+    margin-top: 143px;
+    margin-bottom: 103px;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
 }
 
 .title {
@@ -27,8 +76,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 223px;
+    max-width: 522px;
+    font-family: "Gilroy-Bold";
+
 }
+
 .text {
     color: #888;
     font-size: 20px;
@@ -36,16 +88,49 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 17px;
+    max-width: 466px;
+    font-family: "Gilroy-Medium";
+
 }
 
 .content_buttoms{
-    color: #AAA;
-    font-size: 15px;
+    margin-top: 37px;
+    display: flex;
+    gap: 27px;
+    
+}
+
+.button {
+    padding: 15px 35px;
+    display: flex;
+    gap: 27px;
+    border: none;
+    font-size: 15px; 
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 52px;
+    cursor: pointer;
+    align-items: center;
 }
+
+.btn_start{
+    border-radius: 30px;
+    padding: 15px 35px; 
+    background: #F25822;
+    color: #FFF;
+    font-family: "Gilroy-SemiBold";
+}
+
+.btn_play{
+    font-family: "Gilroy-Bold";
+    color: #AAA;
+    background: none;
+    gap: 10px;
+}
+
 .logos{
-    margin-bottom: 96px;
+    margin-bottom: 97px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
 }
