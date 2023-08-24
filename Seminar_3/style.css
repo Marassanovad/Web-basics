@@ -628,7 +628,7 @@ img {
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(4, 570px);
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
 }
 .testimonials_tittle{
