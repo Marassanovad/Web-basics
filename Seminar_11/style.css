@@ -359,9 +359,13 @@ img {
     }
     .header_title{
         width: 311px;
+        
     }
     .header_title_big{
         font-size: 44px;
+    }
+    .header_title_little{
+        font-size: 24px;
     }
     .offer{
         margin-bottom: 110px;
