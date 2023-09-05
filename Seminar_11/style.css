@@ -347,7 +347,7 @@ img {
 }
 /* .social_media{} */
 
-@media (max-width: 1024px) and (min-width: 848px) {
+@media (max-width: 1024px) and (min-width: 768px) {
     .header_menu{
         gap: 424px;
     }
@@ -359,6 +359,7 @@ img {
     }
     .header_title{
         width: 311px;
+        height: 78px;
         
     }
     .header_title_big{
@@ -407,4 +408,105 @@ img {
     .copyright_content{
         gap: 305px;
     }
+}
+
+@media (max-width: 767px) and (min-width: 320px)  {
+    .header_menu{
+        gap: 200px;
+    }
+    .account{
+        display: none;
+    }
+    .basket{
+        display: none;
+    }
+    .header_content{
+        padding-top: 148px;
+        padding-bottom: 149px;
+        display: flex;
+        justify-content: center;
+    }
+    .header_content_img{
+        display: none;
+    }
+    .header_title{
+        width: 263px;
+        height: 66px;
+        margin: 0;
+    }
+    .header_title_big{
+        font-size: 28px;
+    }
+    .header_title_little{
+        font-size: 20px;
+    }
+    .offer{
+        margin-bottom: 64px;
+    }
+
+    .offer_content{
+        grid-template-columns: 343px;
+        gap: 32px;
+    }
+    .big{
+        grid-column: auto;
+        height: 111px;
+    }
+    .offer_img_big{
+        object-fit: cover;
+        height: 100%;
+    }
+    .product{
+        margin-bottom: 96px;
+        gap: 40px;
+    }
+    .product_text{
+        padding-top: 3px;
+        padding-bottom: 24px;
+    }
+    .product_content{
+        grid-template-columns: 359px;
+        gap: 17px;
+    }
+    .product_item_title{
+        padding-top: 25px;
+    }
+    .footer{
+        padding-top: 48px;
+    }
+    .footer_content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 47px;
+        padding-bottom: 81px;
+    }
+    .footer_item{
+        width: 348px;
+    }
+    .subscribe{
+        flex-direction: column;
+        padding-top: 64px;
+        padding-bottom: 110px;
+        gap: 59px;
+    }
+    .subscribe_menu{
+        width: 341px;
+    }
+    .subscribe_menu_text{
+        font-size: 14px;
+        line-height: 21.5px
+    }
+    .bold{
+        font-size: 24px;
+        line-height: 37px
+    }
+    .copyright_content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 43px;
+        padding-bottom: 9px;
+    }
+     
 }
