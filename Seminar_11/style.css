@@ -103,7 +103,6 @@ img {
     background-color: white;
     padding: 33px;
     text-align: left;
-    /* left: 135px; */
     top: 43px;
 
   }
@@ -116,10 +115,11 @@ img {
     font-family: "Lato-700";
     font-size: 14px;
     padding-bottom: 24px;
-    padding-right: 144px;
+    
 }
 .nav_menu_text{
     list-style-type: none;
+
 }
 .nav_menu_main_link{
     color: #F16D7F;
@@ -134,6 +134,7 @@ img {
 .link_text{
     color: #6F6E6E;
     text-decoration: none;
+    margin-right: 74px;
 }
 /* .account */
 .basket{
@@ -376,7 +377,6 @@ img {
 }
 .subscribe{
     background-image: url(img/background_subscribe.jpg);
-    background-size: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -491,6 +491,9 @@ img {
     .header_menu{
         gap: 424px;
     }
+    .nav_menu {
+        left: 0; 
+      }
     .header_content{
         gap: 39px;
     }
@@ -553,6 +556,9 @@ img {
 @media (max-width: 767px) and (min-width: 320px)  {
     .header_menu{
         gap: 200px;
+    }
+    .nav_menu{
+        right: -25px; 
     }
     .account{
         display: none;
